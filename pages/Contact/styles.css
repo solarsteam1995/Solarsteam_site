@@ -1,8 +1,13 @@
+header-text {
+    font-family: 'Arial', sans-serif; /* Change the font-family as needed */
+
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
 }
 nav {
     display: flex;
@@ -77,7 +82,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 20px;
+    /* background-color: #your-color; Add your desired color */
     z-index: 1000; /* Ensure the header is above other content */
 }
 
@@ -89,6 +95,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    /* background-color: #your-color; Add your desired color */
     z-index: 1000; /* Ensure the footer is above other content */
     font-family: 'Arial', sans-serif; /* Match the font with the above class */
     font-size: 10px;
@@ -99,10 +106,9 @@ main {
     padding-bottom: 60px; /* Adjust based on the height of the footer */
 }
 
-.img-front-left 
-{
-    margin-left: 10%;
-    margin-right: 10%;    
+.img-front-left {
+    width: 30px; /* Set the width as needed */
+    height: 30px; /* Maintains the aspect ratio */
 }
 
 .img-front-right-up {
